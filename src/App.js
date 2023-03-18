@@ -1,11 +1,14 @@
 
-import "./App.css";
-import Todos from './components/Todos';
+import './App.css';
+import { TodoWrapper } from './components/TodoWrapper';
+
+
 function App() {
   return (
-    <div className="todoapp">
-     <Todos/>
-        </div>
+    <div className="App">
+  
+<TodoWrapper/>
+    </div>
   );
 }
 
